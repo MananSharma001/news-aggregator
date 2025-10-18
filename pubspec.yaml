@@ -1,0 +1,15 @@
+name: news_aggregator
+description: Minimal topic-filtered news aggregator
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  url_launcher: ^6.1.7
+
+flutter:
+  uses-material-design: true
